@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>160</y>
+      <w>370</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Scénario d'utilisation
+&lt;&lt;Authentification&gt;&gt;
+--
+
+Objectif: Identifier l'utilisateur
+Acteurs : Employé, Secrétaire, Manager
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.State</type>
+    <coordinates>
+      <x>470</x>
+      <y>400</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>L'utilisateur entre
+ses identifiants</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>410</y>
+      <w>50</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;150;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>390</x>
+      <y>560</y>
+      <w>330</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Les données entrées sont-elles correctes ?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.ThreeWayRelation</type>
+    <coordinates>
+      <x>520</x>
+      <y>650</y>
+      <w>60</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>560</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;</panel_attributes>
+    <additional_attributes>30;90;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>430</x>
+      <y>760</y>
+      <w>230</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Afficher le menu principal</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>450</y>
+      <w>372</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt; 
+        non</panel_attributes>
+    <additional_attributes>30;30;340;30;340;220;60;220</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>660</y>
+      <w>50</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;</panel_attributes>
+    <additional_attributes>30;100;30;30</additional_attributes>
+  </element>
+</diagram>
