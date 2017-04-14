@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>180</y>
+      <w>250</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Scénario d'utilisation
+&lt;&lt;Consulter un rapport&gt;&gt;
+--
+
+Objectif : Selectionner et voir 
+le contenu d'un rapport
+
+Acteurs : Employé,Secretaire
+
+--
+Pré-condition : être authentifié</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>450</y>
+      <w>240</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Afficher le rapport</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
